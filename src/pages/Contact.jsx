@@ -8,7 +8,7 @@ return(
 <HeaderSecond title={'Contact'} Titlecolor={"#212121"} color={'#212121'} NavbarColor={'#212121'} />
 <article>
 
-<form name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
+<form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method='post'>
     <input type="hidden" name="form-name" value="contact" />
     
     <label htmlFor="name">Name:</label>
