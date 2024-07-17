@@ -1,0 +1,77 @@
+.HeaderSecondTitleWhite__Container{
+    display: flex;
+    align-items: end;
+    line-height: 1.5;
+ }
+ 
+ .TitleH2{
+     font-family:'Dogica', sans-serif;
+     font-size: clamp(15px, 5vmin ,70px);
+     text-transform: uppercase;
+     line-height: 1.5;
+ }
+ 
+ 
+ 
+ .HeaderSecondListeWhite__Container{
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+     gap: 5vmin;
+     line-height: 1.5;
+ }
+ 
+ 
+ .HeaderSecondListeWhite__Content{
+     font-family: 'Dogica';
+     font-size: clamp(1vmin, 1.5vmin, 2vmin);
+     
+ }
+ 
+ .HeaderSecondWhite{
+     padding: clamp(10px, 5vmin, 70px);
+     display: flex;
+     justify-content: space-between;
+     align-items: start;
+     gap: 10vmin;
+ }
+ 
+ 
+ 
+ .HeaderSecondListeWhite__Content a:hover{
+     color: #13FF1A;
+ }
+ 
+ .HeaderSecondListeWhite__Content a{
+     text-decoration: none;color: #ffffff;
+ }
+ 
+ 
+ @media(max-width: 1400px){
+     .HeaderSecondTitleWhite__Container{
+         display: flex;
+         flex-direction: column;
+         align-items: start;
+         line-height: 1.5;
+      }
+     
+ }
+ 
+ @media(max-width: 768px){
+     .HeaderSecondWhite{
+         display: flex;
+         flex-direction: column-reverse;
+         justify-content: center;
+         align-items: center;
+     }
+     .HeaderSecondTitleWhite__Container{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         line-height: 1.5;
+      }
+     
+     
+ }
+ 
+ 

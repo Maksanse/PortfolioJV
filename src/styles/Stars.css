@@ -1,0 +1,26 @@
+.StarImage{
+    width:100%
+}
+
+.StarFull{
+    width:100%
+}
+
+@media(max-width: 1920px){
+    .StarImage, .StarFull{
+        width:70%
+    }
+}
+
+@media(max-width: 1440px){
+    .StarImage,.StarFull{
+        width:50%
+    }
+}
+
+@media(max-width: 768px){
+    .StarImage,.StarFull{
+        width:30%
+    }
+}
+

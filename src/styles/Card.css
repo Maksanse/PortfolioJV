@@ -1,0 +1,93 @@
+.Card__Container{
+    
+}
+
+.Card__Card{
+    width: 350px;
+    height: 500px;
+    perspective: 1000px;
+}
+
+.Card__ContentCard{
+    box-sizing: border-box;
+    background: linear-gradient(rgb(123, 196, 123), rgb(40, 121, 77));
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.15s ease-out;
+    border: 5px solid ;
+    border-image-slice: 1;
+    border-width: 10px;
+    border-image-source: radial-gradient(rgb(54, 56, 54), rgb(231, 231, 231));
+}
+
+.Card__Glow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.15s ease-out;
+    background: radial-gradient(circle at 50% 0%,rgb(182, 182, 182),transparent);
+    opacity: 0.5;
+}
+
+.Card__Title{
+    
+    margin: 0 10px;
+}
+
+.Card__H3{
+    
+    font-size: 20px;
+}
+
+.Card__Date{
+    font-family:'Gill Sans' sans-serif;
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: 15px;
+    margin: 5px 10px 0  0;
+    padding: 0;
+}
+
+.Card__img{
+  padding: 10px 5px;
+}
+
+.Card__img img{
+    box-sizing: border-box;
+    width: 100%;
+    object-fit: contain;
+    border: 5px solid rgb(201, 194, 194);
+}
+
+.Card__Entete{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.Card__Description{
+    padding-top: 15px;
+    text-align: center;
+    margin: 0 15px;
+    color: #ffffff
+}
+
+.Card__TechnologieListeContainer{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.Card__TechnologieListeElement{
+    font-family: 'Dogica';
+    font-size: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    color: white;
+}

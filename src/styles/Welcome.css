@@ -1,0 +1,40 @@
+.Welcome__Container{
+    width: 100%;
+    background: radial-gradient(#212121,#1F1F1F);
+    min-height: 100vh;
+}
+
+.Star1{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-70%,-50%);
+}
+
+.Star2{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-40%,-60%);
+}
+
+.Star3{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%,-50%);
+}
+
+.FuseeContainer{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    transform: translate(-15%,-0%);
+}
+
+.TextScrollContainer{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+}

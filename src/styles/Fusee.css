@@ -1,0 +1,21 @@
+.Fusee{
+    width:100%
+}
+
+@media(max-width: 1920px){
+    .Fusee{
+        width:80%
+    }
+}
+
+@media(max-width: 1440px){
+    .Fusee{
+        width:70%
+    }
+}
+
+@media(max-width: 768px){
+    .Fusee{
+        width:50%
+    }
+}

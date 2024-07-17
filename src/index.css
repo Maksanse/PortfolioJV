@@ -1,3 +1,18 @@
+@font-face{
+  font-family: 'Dogica';
+  src:url("./fonts/OTF/dogica.otf") format("opentype"),
+      url('./fonts/OTF/dogicabold.otf') format('opentype'),
+      url('./fonts/OTF/dogicapixel.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Pokémon';
+  src: url('./fonts/pokemon/PokemonHollow.ttf') format('truetype'),
+       url('./fonts/pokemon/PokemonSolid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +25,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3, h4, h5, h6, ul{
+  margin: 0;padding: 0;
 }

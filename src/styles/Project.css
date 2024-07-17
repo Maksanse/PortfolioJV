@@ -1,0 +1,29 @@
+.Project__Container{
+    position: relative;
+    width: 100%;
+    background: radial-gradient(#212121,#1F1F1F);
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+.Project__Card{
+    padding-top: 200px;
+    width: 100%;
+    
+}
+
+.Card__Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  
+    
+}
+
+@media (max-width: 1150px){
+    .Project__Card{
+        padding-top: 50px
+        
+    }
+}

@@ -1,0 +1,5 @@
+.Contact__Container{
+    width: 100%;
+    background: radial-gradient(#EAEAEA,#ffffff);
+    min-height: 100vh;
+}

@@ -1,0 +1,65 @@
+[
+    {   
+        "id": 1 ,
+        "annee": "2024",
+        "title":"Site pour une agence de voyage",
+        "cover": "../assets/Bookie.png",
+        "description":"Mon premier projet en tant qu'élève en formation avec OpenClassroom. Ce projet consistait à reproduire le site créer sur figma en HTML et en CSS, il n'y a donc dans ce projet aucune fonction.",
+        "mission": "Ma mission étatit",
+        "technologie":[
+            "HTML",
+            "CSS"
+        ],
+        "pictures":
+        [
+            "../assets/Kasa/KasaFull.png",
+            "../assets/Kasa/KasaFullApropos.png",
+            "../assets/Kasa/KasaFullError404.png",
+            "../assets/Kasa/KasaFullLogement.png"
+        ]
+
+    },
+
+    {   
+        "id": 2 ,
+        "annee": "2024",
+        "title":"Portfolio pour une photographe",
+        "cover":"../assets/SophieBuel.png",
+        "description":"Dans le cadre de ma formation OpenClassroom en développement web, j'ai eu pour mission de mettre en place un portfolio interactif pour une photographe.",
+        "mission": "Ma mission étatit de defefe",
+        "technologie":[
+            "HTML",
+            "CSS",
+            "Javascript"
+        ],
+        "pictures":
+        [
+            "../assets/Kasa/KasaFull.png",
+            "../assets/Kasa/KasaFullApropos.png",
+            "../assets/Kasa/KasaFullError404.png",
+            "../assets/Kasa/KasaFullLogement.png"
+        ]
+
+    },
+    {   
+        "id": 3 ,
+        "annee": "2024",
+        "title":"Application de location immobilière",
+        "cover":"../assets/Kasa/Kasa.png",
+        "description":"Dans le cadre de ma formation OpenClassroom en développement web, j'ai eu pour mission de créer une application de location de logement.",
+        "mission": "Ma mission étatit dfddsffdfdfdfdf",
+        "technologie":[
+            "REACT",
+            "CSS",
+            "SASS"
+        ],
+        "pictures":
+        [
+            "../assets/Kasa/KasaFull.png",
+            "../assets/Kasa/KasaFullApropos.png",
+            "../assets/Kasa/KasaFullError404.png",
+            "../assets/Kasa/KasaFullLogement.png"
+        ]
+
+    }
+]
