@@ -1,6 +1,6 @@
 import '../styles/Points.css'
 import gsap from 'gsap'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef} from 'react'
 function Points({color}){
 
  const PointRef = useRef(null)

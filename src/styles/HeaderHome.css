@@ -1,7 +1,3 @@
-.HeaderTitle__Container{
-   
-}
-
 .TitleH1{
     font-family:'Dogica', sans-serif;
     color: white;
@@ -50,9 +46,7 @@
         justify-content: center;
         align-items: center;
     }
-    .HeaderTitle__Container{
-    
-    }
+
     
     
 }

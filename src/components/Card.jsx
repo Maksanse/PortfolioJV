@@ -1,10 +1,9 @@
 import { useEffect } from "react"
 import "../styles/Card.css"
-import InformationsProjects from '../datas/informationsProjects.json'
 
 function Card({projet}){
 
-    const {title, id, cover, pictures, description, mission, annee, technologie} = projet
+    const {title, id, cover, description, annee, technologie} = projet
 
     useEffect(() =>{
 

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef} from 'react';
 import '../styles/TextScroll.css'
 import gsap from 'gsap';
 function TextScroll(){
