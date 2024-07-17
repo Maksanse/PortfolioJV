@@ -8,21 +8,20 @@ return(
 <HeaderSecond title={'Contact'} Titlecolor={"#212121"} color={'#212121'} NavbarColor={'#212121'} />
 <article>
 
-<form name="contact" method="post" data-netlify="true" onSubmit="submit">
-          
-            <input type="hidden" name="form-name" value="contact" />
-            <label for ="name">Name: </label>
-            <input type="text" name="name"/>
-         
-            <label for="email">Email: </label>
-            <input type="email" name="email"/>
-         
-            <label for="message">Message: </label>
-            <textarea name="message"></textarea>
-          
-            <button type="submit">Send</button>
+<form name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
+    <input type="hidden" name="form-name" value="contact" />
+    
+    <label htmlFor="name">Name:</label>
+    <input type="text" name="name" required />
 
-        </form>
+    <label htmlFor="email">Email:</label>
+    <input type="email" name="email" required />
+
+    <label htmlFor="message">Message:</label>
+    <textarea name="message" required></textarea>
+
+    <button type="submit">Send</button>
+</form>
 </article>
     </section>
 )
