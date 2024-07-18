@@ -26,7 +26,7 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    gap: 10vmin;
+    gap: 8vmin;
 }
 
 
@@ -39,12 +39,18 @@
     text-decoration: none;
 }
 
+
 @media(max-width: 768px){
     .Header{
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+    }
+    
+    .HeaderListe__Content{
+        font-family: 'Dogica';
+        font-size: clamp(2.5vmin, 1.5vmin, 2vmin);
     }
 
     

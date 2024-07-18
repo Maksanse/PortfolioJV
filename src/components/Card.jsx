@@ -1,5 +1,6 @@
-import { useEffect } from "react"
+import { useEffect, useRef, useState } from "react"
 import "../styles/Card.css"
+import gsap from "gsap"
 
 function Card({projet}){
 
@@ -37,11 +38,36 @@ function Card({projet}){
         })
     })
     })
+
+    const [Click, setClick] = useState(false)
+    const Cardref = useRef(null)
+
+    const changeClick =()=>{
+    setClick(!Click)
+    }
+    
+    useEffect(()=> {
+    
+        Click ?
+        gsap.to(Cardref.current, {
+            rotateY : 720,
+            duration:3
+            
+        })
+        :
+        gsap.to(Cardref.current, {
+            rotateY : 0,
+            duration:3
+            
+        })
+    })
+
 return(
   
-    <div className="Card__Container">
-        <div className="Card__Card">
-            <li className="Card__ContentCard" key={id}>
+    <div className="Card__Containers" onClick={()=> changeClick()}
+    ref={Cardref}>
+        <div className="Card__Card" >
+            <li className="Card__ContentCard" key={id} >
                 <div className="Card__Entete">
                     <div className="Card__Title"><h3 className="Card__H3">{title}</h3></div>
                     <div className="Card__DateContainer"><p className="Card__Date">{annee}</p></div>

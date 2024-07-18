@@ -1,5 +1,74 @@
 .Contact__Container{
+    position: relative;
     width: 100%;
     background: radial-gradient(#EAEAEA,#ffffff);
     min-height: 100vh;
+}
+
+.Contact__Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.Contact__InputName{
+    font-family: 'Dogica';
+    height: 30px;
+    width: 750px;
+}
+
+.Contact__InputEmail{
+    font-family: 'Dogica';
+    height: 30px;
+    width: 750px;
+}
+.Contact__InputMessage{
+    font-family: 'Dogica';
+    height: 500px;
+    width: 750px;
+}
+
+.Contact__ButtonSubmit{
+    font-family: 'Dogica';
+    height: 30px;
+    width: 750px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.Contact__ButtonSubmit:hover{
+    background-color:  #13FF1A;
+}
+
+.Footer__Container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    .Contact__InputName{
+        font-family: 'Dogica';
+        height: 30px;
+        width: 350px;
+    }
+    
+    .Contact__InputEmail{
+        font-family: 'Dogica';
+        height: 30px;
+        width: 350px;
+    }
+    .Contact__InputMessage{
+        font-family: 'Dogica';
+        height: 300px;
+        width: 350px;
+    }
+    
+    .Contact__ButtonSubmit{
+        font-family: 'Dogica';
+        height: 30px;
+        width: 350px;
+    }
 }

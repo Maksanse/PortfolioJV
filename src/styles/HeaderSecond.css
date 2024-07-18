@@ -70,7 +70,10 @@
         align-items: center;
         line-height: 1.5;
      }
-    
-    
+     .HeaderSecondListe__Content{
+        font-family: 'Dogica';
+     font-size: clamp(2.5vmin, 1.5vmin, 2vmin);
+        
+    }
 }
 

@@ -1,7 +1,9 @@
 .Welcome__Container{
+    position: relative;
     width: 100%;
     background: radial-gradient(#212121,#1F1F1F);
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .Star1{
@@ -25,11 +27,39 @@
     transform: translate(-30%,-50%);
 }
 
+.Star48-1{ 
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-30%,-50%);
+}
+.Star48-2{ 
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-30%,-50%);
+}
+.Star48-3{ 
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    transform: translate(-30%,-50%);
+}
+
 .FuseeContainer{
     position: absolute;
     bottom: 0;
     right: 15%;
     transform: translate(-15%,-0%);
+}
+
+.Satelite{
+    position: absolute;
+    top: 50%;
+    right: -150px;
+    transform: translate(-0%,-0%);
+    rotate: -90deg;
+    z-index: 5;
 }
 
 .TextScrollContainer{

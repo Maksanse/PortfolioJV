@@ -4,12 +4,45 @@
     background: radial-gradient(#212121,#1F1F1F);
     min-height: 100vh;
     padding-bottom: 50px;
+    overflow: hidden;
 }
 .Project__Card{
     padding-top: 200px;
     width: 100%;
     
 }
+.LigneVerte{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #57b95c;
+}
+
+.LigneVerte.Une{
+    top: 20%;
+}
+
+.LigneVerte.Deux{
+    top: 80%;
+}
+
+.LigneVerteHaute{
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #57b95c;
+}
+
+.LigneVerteHaute.Une{
+    top: 80%;
+    right: 80%;
+}
+
+.LigneVerteHaute.Deux{
+    top: 0%;
+    right: 10%;
+}
+
 
 .Card__Container{
     display: flex;
