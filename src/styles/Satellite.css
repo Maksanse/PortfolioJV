@@ -1,0 +1,21 @@
+.Satellite__Image{
+    width:100%;
+}
+
+@media(max-width: 1920px){
+    .Satellite__Image{
+        width:80%
+    }
+}
+
+@media(max-width: 1440px){
+    .Satellite__Image{
+        width:70%
+    }
+}
+
+@media(max-width: 768px){
+    .Satellite__Image{
+        width:50%
+    }
+}

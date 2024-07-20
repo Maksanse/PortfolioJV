@@ -1,0 +1,21 @@
+.Clouds__Images{
+    width:100%;
+}
+
+@media(max-width: 1920px){
+    .Clouds__Images{
+        width:70%
+    }
+}
+
+@media(max-width: 1440px){
+    .Clouds__Images{
+        width:60%
+    }
+}
+
+@media(max-width: 768px){
+    .Clouds__Images{
+        width:50%
+    }
+}

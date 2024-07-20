@@ -1,0 +1,70 @@
+.Plane__Image{
+    width:100%;
+}
+
+.Planes__ContainerPlane{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Planes{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 250px;
+   
+    
+}
+
+@media(max-width: 1920px){
+    .Plane__Image{
+        width:70%
+    }
+    .Planes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 200px;
+        
+         
+     }
+}
+
+@media(max-width: 1440px){
+    .Plane__Image{
+        width:60%
+    }
+    .Planes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 100px;
+        padding-bottom: 100px;
+         
+     }
+}
+
+@media(max-width: 1024px){
+    .Planes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 50px;
+        
+         
+     }
+}
+
+@media(max-width: 768px){
+    .Plane__Image{
+        width:50%
+    }
+}

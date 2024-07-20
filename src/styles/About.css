@@ -1,5 +1,76 @@
 .About__Container{
     width: 100%;
-    background: radial-gradient(#EAEAEA,#ffffff);
+    background:linear-gradient(#ECF3FF, #C3DEFC);
     min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.About__Cloud1{
+position: absolute;
+    top: 25%;
+    left: 80%;
+    transform: translate(-40%,-60%);
+}
+
+.About__Cloud2{
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    transform: translate(-40%,-60%);
+}
+
+.About__Cloud3{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-40%,-60%);
+}
+
+.About__Cloud4{
+    position: absolute;
+    top: 20%;
+    right: -300px;
+    transform: translate(-40%,-60%);
+}
+
+.About__Cloud5{
+    position: absolute;
+    top: 30%;
+    right: -300px;
+    transform: translate(-40%,-60%);
+}
+
+.About__Cloud6{
+    position: absolute;
+    top: 20%;
+    right: -300px;
+    transform: translate(-40%,-60%);
+}
+
+.About__Cloud7{
+    position: absolute;
+    top: 30%;
+    right: -300px;
+    transform: translate(-40%,-60%);
+}
+
+.CLouds__ContainerClouds{
+
+}
+
+.Plane__Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 350px;
+}
+
+
+
+@media (max-width:768px){
+    .Plane__Container{
+        padding-top: 50px
+        
+    }
 }

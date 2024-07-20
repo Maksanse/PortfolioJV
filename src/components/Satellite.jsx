@@ -1,11 +1,12 @@
 import sat from '../assets/sateliteBlanc.png'
+import '../styles/Satellite.css'
 
 function Satellite(){
 
 
     return(
         <div>
-            <img src={sat} alt="Satellite"></img>
+            <img className='Satellite__Image' src={sat} alt="Satellite"></img>
         </div>
     )
 }
