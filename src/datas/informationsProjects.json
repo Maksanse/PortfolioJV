@@ -12,10 +12,9 @@
         ],
         "pictures":
         [
-            "../assets/Kasa/KasaFull.png",
-            "../assets/Kasa/KasaFullApropos.png",
-            "../assets/Kasa/KasaFullError404.png",
-            "../assets/Kasa/KasaFullLogement.png"
+            "../assets/BookieDesk.png",
+            "../assets/Tablette.png",
+            "../assets/Mobile.png"
         ]
 
     },
@@ -34,10 +33,9 @@
         ],
         "pictures":
         [
-            "../assets/Kasa/KasaFull.png",
-            "../assets/Kasa/KasaFullApropos.png",
-            "../assets/Kasa/KasaFullError404.png",
-            "../assets/Kasa/KasaFullLogement.png"
+            "../assets/Homepage.png",
+            "../assets/SophieBuel.png"
+        
         ]
 
     },

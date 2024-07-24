@@ -1,0 +1,69 @@
+/* ModaleProject.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 90%;
+  max-height: 90vh; /* Limiter la hauteur maximale */
+  overflow: auto; /* Activer le défilement si nécessaire */
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff6060;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.ModaleProject__Technologie{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ModaleProject__Technologie ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.ModaleProject__Technologie ul li {
+  padding: 5px 10px;
+}
+
+.modal-pictures img {
+  max-width: 100%;
+  max-height: 70vh; /* Limiter la hauteur des images pour qu'elles ne dépassent pas la fenêtre */
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .modal {
+    width: 100%;
+    height: 100%;
+    max-height: none; /* Supprimer la hauteur maximale sur les petits écrans */
+  }
+
+  .modal-pictures img {
+    max-height: 50vh; /* Ajuster pour les petits écrans */
+  }
+}

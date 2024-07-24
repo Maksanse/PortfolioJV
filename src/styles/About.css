@@ -55,10 +55,6 @@ position: absolute;
     transform: translate(-40%,-60%);
 }
 
-.CLouds__ContainerClouds{
-
-}
-
 .Plane__Container{
     display: flex;
     justify-content: center;

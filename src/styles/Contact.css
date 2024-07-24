@@ -1,7 +1,7 @@
 .Contact__Container{
     position: relative;
     width: 100%;
-    background: radial-gradient(#EAEAEA,#ffffff);
+    background: linear-gradient(#FFFCB0, #1A3797);
     min-height: 100vh;
 }
 

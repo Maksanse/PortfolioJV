@@ -21,6 +21,11 @@
     
 }
 
+.Plane__title{
+    font-family: 'Dogica';
+    font-size: 10px;
+}
+
 @media(max-width: 1920px){
     .Plane__Image{
         width:70%

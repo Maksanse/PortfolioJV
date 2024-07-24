@@ -1,20 +1,37 @@
 [
     {
         "id":1,
-        "title": "Who i am ?",
+        "title": "WHO I AM?",
         "cover": "../assets/PlanesOne.png",
         "description":"Passionné par le sport, les jeux vidéo et les jeux de société, je suis une personne motivée et dynamique. Actuellement en études de développement web, je suis en quête d'une opportunité d'alternance pour mettre en pratique mes compétences. Mon enthousiasme pour l'apprentissage et mon esprit d'équipe me poussent à toujours donner le meilleur de moi-même. Je suis prêt à relever de nouveaux défis et à contribuer activement au succès de votre entreprise."
     },
     {
         "id":2,
-        "title": "Why me ?",
+        "title": "WHY ME ?",
         "cover": "../assets/PlanesOne.png",
         "description":"Je pourrais vous dire que “je suis motive, ponctuel et dynamique”, même si cela reste vrai, je pense que toutes personnes qui postule pour un emplois doit l’être, alors j’ai décidé d’illustrer mes motivations et la personne que je suis au travers d’exemple de ma vie."
     },
     {
         "id":3,
-        "title": "Skills?",
+        "title": "SKILLS ?",
         "cover": "../assets/PlanesOne.png",
-        "description":"j'aime le pain"
+        "description":[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "REACT",
+            "Node.JS",
+            "Adobe Illustrator",
+            "Figma"
+        ],
+        "rating":[
+            "4",
+            "4",
+            "3",
+            "3",
+            "1",
+            "3",
+            "3"
+        ]
     }
 ]

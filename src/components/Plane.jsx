@@ -68,6 +68,9 @@ function Plane() {
     }
   }, [modaleOn, clickedPlaneId]);
 
+  // Check if plane data is available
+  const selectedPlane = clickedPlaneId !== null ? infoAbout[clickedPlaneId] : null;
+
   return (
     <div>
       <ul className='Planes'>
@@ -81,16 +84,16 @@ function Plane() {
               onClick={() => changeModale(index)}
               src={plane.cover}
               alt='plane'
-            ></img>
-            <p>{plane.title}</p>
+            />
+            <p className='Plane__title'>{plane.title}</p>
           </li>
         ))}
       </ul>
-      {modaleOn && (
+      {selectedPlane && (
         <Modale
           isOpen={modaleOn}
           onClose={closeModale}
-          plane={infoAbout[clickedPlaneId]}
+          plane={selectedPlane}
         />
       )}
     </div>

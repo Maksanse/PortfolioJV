@@ -9,11 +9,12 @@ return(
     <section id='ProjectLink' className="Project__Container">
         <HeaderWhite title={'Project'} Titlecolor={'white'} color={'white'} NavbarColor={'white'}/>
     <article className='Project__Card'>
-        <div className='LigneVerte Une'></div>
-        <div className='LigneVerte Deux'></div>
-        <div className='LigneVerteHaute Une'></div>
-        <div className='LigneVerteHaute Deux'></div>
-           <ul className='Card__Container'>
+        <div>
+            <div className='Project__Sable1'></div>
+            <div className='Project__Sable2'></div>
+            <div className='Project__Sable3'></div>
+        </div>
+           <div className='Card__Container'>
 
         {InformationsProjects.map((projet,index)=>
         <Card
@@ -21,7 +22,7 @@ return(
         projet={projet}
         />
     )}
-</ul>
+</div>
     </article>
 
      
