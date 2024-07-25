@@ -8,8 +8,6 @@ function Buble(){
     const BubbleRef = useRef(null)
 
     useEffect(() => {
-    const Quart =(window.innerWidth + 155) /4
-    const Dixieme = (window.innerHeight)/10
         const tl = gsap.timeline({repeat:-1})
     
 
