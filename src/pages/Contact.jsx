@@ -79,8 +79,6 @@ return(
 </div>
 
     </section>
-)
-
-}
+)}
 
 export default Contact
