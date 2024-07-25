@@ -1,5 +1,6 @@
 .Plane__Image{
     width:100%;
+    
 }
 
 .Planes__ContainerPlane{
@@ -11,13 +12,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.Planes__ContainerPlane img{
+ cursor: pointer;
+}
+
 .Planes{
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
    align-items: center;
    gap: 250px;
-   
+  
     
 }
 

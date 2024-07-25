@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import '../styles/Modale.css';
 import StarRating from './StarRating';
+import ToggleBox from './ToggleBox';
 
 const Modale = ({ isOpen, onClose, plane }) => {
   const modaleRef = useRef(null);
@@ -30,12 +31,26 @@ const Modale = ({ isOpen, onClose, plane }) => {
     }
   };
 
+  const renderToggleBoxes = () => {
+    if (plane.titleToggle && plane.descriptionToggle) {
+      return plane.titleToggle.map((title, index) => (
+        <ToggleBox
+          key={index}
+          title={title}
+          description={plane.descriptionToggle[index]}
+        />
+      ));
+    }
+    return null;
+  };
+
   return (
     <div className='modale-overlay' onClick={onClose}>
       <div className='modale' ref={modaleRef} onClick={(e) => e.stopPropagation()}>
         <button className='modale-close' onClick={onClose}>X</button>
         <h2>{plane.title}</h2>
         {renderSkills()}
+        {renderToggleBoxes()}
       </div>
     </div>
   );

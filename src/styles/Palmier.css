@@ -1,0 +1,29 @@
+.Palmier{
+    width: 100%;
+}
+
+.EtoileMer{
+    width: 100%;
+}
+
+.Sable{
+    width: 100%;
+}
+
+@media(max-width: 1920px){
+    .Palmier, .EtoileMer{
+        width:70%
+    }
+}
+
+@media(max-width: 1440px){
+    .Palmier, .EtoileMer{
+        width:50%
+    }
+}
+
+@media(max-width: 768px){
+    .Palmier, .EtoileMer{
+        width:30%
+    }
+}

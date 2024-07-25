@@ -9,8 +9,17 @@
         "id":2,
         "title": "WHY ME ?",
         "cover": "../assets/PlanesOne.png",
-        "description":"Je pourrais vous dire que “je suis motive, ponctuel et dynamique”, même si cela reste vrai, je pense que toutes personnes qui postule pour un emplois doit l’être, alors j’ai décidé d’illustrer mes motivations et la personne que je suis au travers d’exemple de ma vie."
+        "description":"Je pourrais vous dire que “je suis motive, ponctuel et dynamique”, même si cela reste vrai, je pense que toutes personnes qui postule pour un emplois doit l’être, alors j’ai décidé d’illustrer mes motivations et la personne que je suis au travers d’exemple de ma vie.",
+        "titleToggle": [
+            "Au travers de la musique ?",
+            "Au travers du sport ?"
+        ],
+        "descriptionToggle" : [
+            "C’est simple, j’écoute absolument tous type de musique, en partant de Mozart jusque Sub Zero Project en passant par Orelsan et Brelinist. Quel rapport avec vous ? La diversité. Je suis prêt à apprendre et à découvrir de nouvel chose sans me bloquer avec des préjugés. ",
+            "Je pratique du sport depuis toujours, avec des periodes plus intense que d’autres. Ces dernières années je me suis lancé l’objectif de prendre quelques kilos de muscle. Mais quel rapport avec le travail ? Mon mental.Ce n’est pas parce que la charge de travail est dure quel est impossible, je n’abandonne pas devant la difficulté et je me bas pour réussir mes objectifs"
+        ]
     },
+
     {
         "id":3,
         "title": "SKILLS ?",

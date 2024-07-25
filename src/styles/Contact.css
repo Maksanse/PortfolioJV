@@ -1,52 +1,121 @@
-.Contact__Container{
+.Contact__Container {
     position: relative;
     width: 100%;
-    background: linear-gradient(#FFFCB0, #1A3797);
+    background: linear-gradient(#1A3797, #0c2268);
     min-height: 100vh;
+    overflow: hidden;
 }
 
-.Contact__Form{
+.Contact__Form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding-bottom: 50px;
+    padding: 20px;
+    position: relative; /* Assurez-vous que le formulaire est positionné relativement pour que z-index fonctionne */
+    z-index: 10; /* Assurez-vous que cet index est plus élevé que les autres éléments environnants */
+    border-radius: 10px; /* Ajouter des coins arrondis pour un meilleur design */
 }
 
-.Contact__InputName{
+.Contact__InputName,
+.Contact__InputEmail,
+.Contact__InputMessage,
+.Contact__ButtonSubmit {
     font-family: 'Dogica';
-    height: 30px;
     width: 750px;
+    border: 1px solid #ccc; /* Ajouter une bordure pour la visibilité */
+    border-radius: 5px; /* Ajouter des coins arrondis pour un meilleur design */
+    box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur totale */
+    padding: 10px; /* Ajouter un espacement interne pour un meilleur design */
+    margin-bottom: 15px; /* Ajouter un espace entre les champs */
 }
 
-.Contact__InputEmail{
-    font-family: 'Dogica';
+.Contact__InputName,
+.Contact__InputEmail {
     height: 30px;
-    width: 750px;
-}
-.Contact__InputMessage{
-    font-family: 'Dogica';
-    height: 500px;
-    width: 750px;
 }
 
-.Contact__ButtonSubmit{
-    font-family: 'Dogica';
+.Contact__InputMessage {
+    height: 200px; /* Réduire la hauteur pour les mobiles */
+}
+
+.Contact__ButtonSubmit {
     height: 30px;
-    width: 750px;
     margin-top: 50px;
-    cursor: pointer;
+    cursor: pointer; /* Ajouter un curseur de pointeur pour le bouton */
+    background-color: #28a745; /* Couleur de fond pour le bouton */
+    color: #ffffff; /* Couleur du texte pour le bouton */
+    transition: background-color 0.3s ease; /* Ajouter une transition pour le changement de couleur de fond */
 }
 
-.Contact__ButtonSubmit:hover{
-    background-color:  #13FF1A;
+.Contact__ButtonSubmit:hover {
+    background-color: #13FF1A; /* Changer la couleur de fond lorsque le bouton est survolé */
 }
+
+.Contact__InputName:focus,
+.Contact__InputEmail:focus,
+.Contact__InputMessage:focus {
+    border-color: #80bdff; /* Changer la couleur de la bordure lorsque le champ est en focus */
+    outline: none; /* Enlever le contour par défaut */
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.5); /* Ajouter une ombre pour indiquer le focus */
+}
+
+/* Styles réactifs pour les appareils mobiles */
+
 
 .Footer__Container{
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+
+.Contact__Eau1{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 100px;
+    height: 15px;
+    background-color: #536ab6;
+}
+
+.Contact__Eau2{
+    position: absolute;
+    top: 12%;
+    right: 15%;
+    width: 100px;
+    height: 15px;
+    background-color: #536ab6;
+}
+
+.Contact__Eau3{
+    position: absolute;
+    top: 15%;
+    right: 95%;
+    width: 100px;
+    height: 15px;
+    background-color: #536ab6;
+}
+
+.Contact__BubbleContainer1{
+    position: absolute;
+    bottom: 50px;
+    right: 95%;
+}
+
+.Contact__BubbleContainer2{
+    position: absolute;
+    bottom: -150px;
+    right: 90%;
+}
+
+.Contact__BubbleContainer3{
+    position: absolute;
+    bottom: 0px;
+    right: 10%;
+}
+
+
+
 
 @media(max-width: 768px){
     .Contact__Form{
@@ -55,6 +124,37 @@
         align-items: center;
         gap: 10px;
         padding-bottom: 150px;
+    }
+    .Contact__Eau1{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 50px;
+        height: 3px;
+        background-color: #536ab6;
+    }
+    
+    .Contact__Eau2{
+        position: absolute;
+        top: 12%;
+        right: 15%;
+        width: 50px;
+        height: 3px;
+        background-color: #536ab6;
+    }
+    
+    .Contact__Eau3{
+        position: absolute;
+        top: 15%;
+        right: 95%;
+        width: 50px;
+        height: 3px;
+        background-color: #536ab6;
+    }
+    .Contact__BubbleContainer2{
+        position: absolute;
+        bottom: -50px;
+        right: 60%;
     }
 
     .Contact__InputName{

@@ -5,44 +5,13 @@
     min-height: 100vh;
     padding-bottom: 50px;
     overflow: hidden;
+    
 }
 .Project__Card{
     padding-top: 200px;
     width: 100%;
     
 }
-.LigneVerte{
-    position: absolute;
-    width: 100%;
-    height: 5px;
-    background-color: #57b95c;
-}
-
-.LigneVerte.Une{
-    top: 20%;
-}
-
-.LigneVerte.Deux{
-    top: 80%;
-}
-
-.LigneVerteHaute{
-    position: absolute;
-    width: 5px;
-    height: 100%;
-    background-color: #57b95c;
-}
-
-.LigneVerteHaute.Une{
-    top: 80%;
-    right: 80%;
-}
-
-.LigneVerteHaute.Deux{
-    top: 0%;
-    right: 10%;
-}
-
 
 .Card__Container{
     display: flex;
@@ -50,7 +19,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-  
 }
 
 .Project__Sable1{
@@ -64,11 +32,65 @@
     z-index: 0;
 }
 
+.Project__SableContainer{
+    position: absolute;
+    bottom: -10px;
+    margin: 0;
+    padding: 0;
 
+}
+.Project__PalmierContainer{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+    width: 15%;
+}
+
+.Project_EtoileMerRose1{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%,-80%);
+    rotate: 15deg;
+}
+
+.Project_EtoileMerRose2{
+    position: absolute;
+    top: 95%;
+    left: 80%;
+    transform: translate(-50%,-80%);
+    rotate: 15deg;
+}
+
+.Project_EtoileMerOrange1{
+    position: absolute;
+    top: 85%;
+    left: 23%;
+    transform: translate(-50%,-80%);
+    rotate: 15deg;
+}
+
+.Project_EtoileMerOrange2{
+    position: absolute;
+    top: 98%;
+    left: 5%;
+    transform: translate(-50%,-80%);
+    rotate: 15deg;
+}
+
+.Project__Bird{
+    position: absolute;
+    top: 15%;
+    left: -55px;
+    transform: translate(-50%,-80%);
+    z-index: 1;
+}
 
 @media (max-width: 1150px){
     .Project__Card{
         padding-top: 50px
         
     }
+    
 }

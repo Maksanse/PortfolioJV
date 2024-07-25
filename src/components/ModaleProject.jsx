@@ -36,7 +36,6 @@ function ModaleProject({ isOpen, onClose, project }) {
           X
         </button>
         <h2>{project.title}</h2>
-        <p>{Array.isArray(project.description) ? project.description.join(', ') : project.description}</p>
         <p>Année: {project.annee}</p>
         <p>Mission: {project.mission}</p>
         <div className="ModaleProject__Technologie">

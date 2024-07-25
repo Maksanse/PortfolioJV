@@ -1,0 +1,22 @@
+.Bubble{
+    width: 100%;
+}
+
+@media(max-width: 1920px){
+    .Bubble{
+        width:70%
+    }
+}
+
+@media(max-width: 1440px){
+    .Bubble{
+        width:50%
+    }
+}
+
+@media(max-width: 768px){
+    .Bubble{
+        width:30%
+    }
+}
+

@@ -68,7 +68,6 @@ function Plane() {
     }
   }, [modaleOn, clickedPlaneId]);
 
-  // Check if plane data is available
   const selectedPlane = clickedPlaneId !== null ? infoAbout[clickedPlaneId] : null;
 
   return (

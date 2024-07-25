@@ -1,0 +1,18 @@
+.toggle-box {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .toggle-box-title {
+    padding: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .toggle-box-description {
+    padding: 10px;
+    background-color: #fafafa;
+    border-top: 1px solid #ccc;
+  }
