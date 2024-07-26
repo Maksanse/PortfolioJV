@@ -9,7 +9,7 @@ return(
         </div>
         <div>
             <ul>
-                <li><a href="https://github.com/Maksanse?tab=repositories" target='blanck'><img src={LogoGit} alt="LogoGit"></img></a></li>
+                <li><a href="https://github.com/Maksanse?tab=repositories" target='_blank' rel="noopener noreferrer"><img src={LogoGit} alt="LogoGit"></img></a></li>
             </ul>
         </div>
     </footer>
