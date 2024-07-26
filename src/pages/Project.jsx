@@ -9,7 +9,7 @@ function Project(){
 
 return(
     <section id='ProjectLink' className="Project__Container">
-        <HeaderWhite title={'Project'} Titlecolor={'white'} color={'white'} NavbarColor={'white'}/>
+        <HeaderWhite title={'Projets'} Titlecolor={'white'} color={'white'} NavbarColor={'white'}/>
     <article className='Project__Card'>
         <div>
             <div className='Project__Bird'><Bird /></div>

@@ -1,38 +1,47 @@
-import { useEffect, useRef, useState } from 'react'
-import Fuse from '../assets/FuseBlanc.png'
-import gsap from 'gsap'
-import '../styles/Fusee.css'
+import { useEffect, useRef, useState } from 'react';
+import Fuse from '../assets/FuseBlanc.png';
+import gsap from 'gsap';
+import '../styles/Fusee.css';
 
-function Fusee(){
+function Fusee() {
+  const [moove, setMoove] = useState(false);
+  const fuseRef = useRef(null);
 
+  const changeMoove = () => {
+    setMoove(!moove);
+  };
 
-const [moove, setMoove] = useState(false)
+  useEffect(() => {
+    const handleScroll = () => {
+      setMoove(true);
+      window.removeEventListener('scroll', handleScroll);
+    };
 
-const fuseRef = useRef(null)
+    if (moove) {
+      gsap.to(fuseRef.current, {
+        y: -1500,
+        duration: 3,
+      });
+    }
 
-const changeMoove = () => {
-    setMoove(!moove)
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [moove]);
+
+  return (
+    <div>
+      <img
+        className='Fusee'
+        onClick={changeMoove}
+        ref={fuseRef}
+        src={Fuse}
+        alt="Fuse"
+      />
+    </div>
+  );
 }
 
-
-useEffect(() => {
-    moove &&
-    gsap.to(fuseRef.current, {
-        y:-1500,
-        duration: 3
-    })
-}
-) 
-
-    return(
-        <div>
-            <img 
-            className='Fusee'
-            onClick={changeMoove}
-            ref = {fuseRef}
-            src={Fuse} alt="Fuse"></img>
-        </div>
-    )
-}
-
-export default Fusee
+export default Fusee;

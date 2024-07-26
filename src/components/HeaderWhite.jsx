@@ -24,14 +24,14 @@ function HeaderWhite({title, color, Titlecolor, NavbarColor}){
                     onClick={(e)=>{
                     e.preventDefault();
                     scrollToSection('AboutLink')}}
-                    >About</a>
+                    >A propos</a>
                 </li>
                 <li className='HeaderSecondListeWhite__Content'>
                     <a href='#ProjectLink'
                     
                     onClick={(e)=>{
                     e.preventDefault();
-                    scrollToSection('ProjectLink')}}>Project</a></li>
+                    scrollToSection('ProjectLink')}}>Projets</a></li>
                 <li className='HeaderSecondListeWhite__Content'>
                     <a href='#ContactLink'
                     

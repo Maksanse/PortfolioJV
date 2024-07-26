@@ -12,3 +12,8 @@ footer ul{
     list-style: none;
     gap: 25px;
 }
+
+footer ul li a:hover{
+    opacity: 0.5;
+
+}

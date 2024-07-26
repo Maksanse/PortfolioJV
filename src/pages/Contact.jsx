@@ -63,7 +63,7 @@ return(
     <input type="hidden" name="form-name" value="contact" />
     
     <label htmlFor="name"></label>
-    <input className='Contact__InputName' type="text" name="name" required placeholder='Name'/>
+    <input className='Contact__InputName' type="text" name="name" required placeholder='Nom'/>
 
     <label htmlFor="email"></label>
     <input className='Contact__InputEmail' type="email" name="email" required  placeholder='Email'/>
@@ -71,7 +71,7 @@ return(
     <label htmlFor="message"></label>
     <textarea className='Contact__InputMessage' name="message" required placeholder='Message'></textarea>
 
-    <button className='Contact__ButtonSubmit' type="submit">Send</button>
+    <button className='Contact__ButtonSubmit' type="submit">Envoyé</button>
 </form>
 </article>
 <div className='Footer__Container'>

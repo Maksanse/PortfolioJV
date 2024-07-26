@@ -71,7 +71,7 @@ function About(){
 
 return(
     <div id='AboutLink' className="About__Container">
-        <HeaderSecond title={'About me'} Titlecolor={'#212121'} color={'#212121'} NavbarColor={'#212121'}/>
+        <HeaderSecond title={'A propos'} Titlecolor={'#212121'} color={'#212121'} NavbarColor={'#212121'}/>
         <div className='CLouds__ContainerClouds'>
             <div className='About__Cloud1'><Cloud animation={animateToLeft} /></div>
             <div className='About__Cloud2'><Cloud animation={animateToLeft1}/></div>

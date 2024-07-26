@@ -14,7 +14,7 @@ function HeaderHome(){
     return(
         <header className='Header'>
             <div className="HeaderTitle__Container">
-                <h1 className="TitleH1">Welcome to my Portfolio</h1>
+                <h1 className="TitleH1">BIENVENUE SUR MON PORTFOLIO</h1>
                 <Points color={'white'}/>
             </div>
            <nav>
@@ -24,7 +24,7 @@ function HeaderHome(){
                         e.preventDefault();
                         scrollToSection('AboutLink')}}
                         href='#AboutLink'>
-                        About
+                        A propos
                     </a>
                 </li>
                 <li className='HeaderListe__Content'>
@@ -32,7 +32,7 @@ function HeaderHome(){
                         e.preventDefault();
                         scrollToSection('ProjectLink')}}
                         href='#ProjectLink'>
-                        Project</a></li>
+                        Projets</a></li>
                 <li className='HeaderListe__Content'>
                     <a onClick={(e)=>{
                         e.preventDefault();

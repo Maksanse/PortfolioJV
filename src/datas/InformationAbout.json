@@ -1,28 +1,34 @@
 [
     {
         "id":1,
-        "title": "WHO I AM?",
+        "title": "Qui suis-je ?",
         "cover": "../assets/PlanesOne.png",
-        "description":"Passionné par le sport, les jeux vidéo et les jeux de société, je suis une personne motivée et dynamique. Actuellement en études de développement web, je suis en quête d'une opportunité d'alternance pour mettre en pratique mes compétences. Mon enthousiasme pour l'apprentissage et mon esprit d'équipe me poussent à toujours donner le meilleur de moi-même. Je suis prêt à relever de nouveaux défis et à contribuer activement au succès de votre entreprise."
+        "description":"Je m'appelle Maxence j'ai 23 ans, j'habite dans le nord de la France. Je suis un grand passionné de jeux vidéo en tous genre comme peut le démontrer mon portfolio en pixel art. Je suis également un sportif avec la pratique de plusieurs sport comme le cross fit, la course à pied, la callisthénie...J'aime apprendre de nouvelle chose et c'est pourquoi je me suis lancé dans l'aventure du Dev Web qui n'arrête pas d'évoluer au fur et à mesure du temps."
     },
     {
         "id":2,
-        "title": "WHY ME ?",
+        "title": "Pourquoi moi ?",
         "cover": "../assets/PlanesOne.png",
         "description":"Je pourrais vous dire que “je suis motive, ponctuel et dynamique”, même si cela reste vrai, je pense que toutes personnes qui postule pour un emplois doit l’être, alors j’ai décidé d’illustrer mes motivations et la personne que je suis au travers d’exemple de ma vie.",
         "titleToggle": [
             "Au travers de la musique ?",
-            "Au travers du sport ?"
+            "Au travers du sport ?",
+            "Au travers de ma formation OpenClassrooms ?",
+            "Au travers de mon BTS Communication ?",
+            "Au travers de mon caractère ?"
         ],
         "descriptionToggle" : [
-            "C’est simple, j’écoute absolument tous type de musique, en partant de Mozart jusque Sub Zero Project en passant par Orelsan et Brelinist. Quel rapport avec vous ? La diversité. Je suis prêt à apprendre et à découvrir de nouvel chose sans me bloquer avec des préjugés. ",
-            "Je pratique du sport depuis toujours, avec des periodes plus intense que d’autres. Ces dernières années je me suis lancé l’objectif de prendre quelques kilos de muscle. Mais quel rapport avec le travail ? Mon mental.Ce n’est pas parce que la charge de travail est dure quel est impossible, je n’abandonne pas devant la difficulté et je me bas pour réussir mes objectifs"
+            "C’est simple, j’écoute absolument tous type de musique. Quel rapport avec vous ? La diversité. Je suis prêt à apprendre et à découvrir de nouvel chose sans me bloquer avec des préjugés.",
+            "Je pratique du sport depuis toujours. Mais quel rapport avec le travail ? Ma rigueur. Ce n’est pas parce que la charge de travail est dure quel est impossible, je n’abandonne pas devant la difficulté et je me bas pour réussir mes objectifs.",
+            "La formation chez OpenClassrooms se base sur la réalisation de projet inspiré de fait réel, comme la conception d'un portfolio pour une photographe par exemple. Même si cela ne représente pas 100% de la réalité, j'ai déjà pu avoir un bon apperçu des missions qui me seront confiées.",
+            "Avec mes 2 années d'études en communication j'ai pu apprendre à écouter et comprendre les demandes d'un clients, je sais réaliser un SWOT et j'ai également pu apprendre à utiliser la suite Adobe. Mais quel rapport avec le Developpement web ? Il me semble important de bien saisir la demande du clients, savoir poser les questions importante et expliquer au client ce qui est possible et ce qui ne l'est pas tout en trouvant l'équilibre parfait pour répondre à ses attentes",
+            "Je ne vous dirait pas que je suis perfectionniste parce que c'est trop simple et beaucoup trop utilisé. Alors j'utiliserai un synonymes, et je vous dirai que je suis exigeant envers mon travail, si un text doit être centré et qu'il dépasse de 5px je vais m'arracher les cheveux jusqu'à ce qu'il soit bien centré, mais je ne le laisserai pas mal positionné."
         ]
     },
 
     {
         "id":3,
-        "title": "SKILLS ?",
+        "title": "Competences ?",
         "cover": "../assets/PlanesOne.png",
         "description":[
             "HTML",

@@ -5,7 +5,7 @@
         "title":"Site pour une agence de voyage",
         "cover": "../assets/Bookie.png",
         "description":"Mon premier projet en tant qu'élève en formation avec OpenClassroom. Ce projet consistait à reproduire le site créer sur figma en HTML et en CSS, il n'y a donc dans ce projet aucune fonction.",
-        "mission": "Ma mission étatit",
+        "mission": "Ma mission étatit de recréer la partie estéthique du site à l'aide d'une maquette réaliser sur figma, le site devait être repsonsive, vous pouvez donc constaté les rendus du sites au 3 formats, Desktop, Tablette et Mobile",
         "technologie":[
             "HTML",
             "CSS"
@@ -25,7 +25,7 @@
         "title":"Portfolio pour une photographe",
         "cover":"../assets/SophieBuel.png",
         "description":"Dans le cadre de ma formation OpenClassroom en développement web, j'ai eu pour mission de mettre en place un portfolio interactif pour une photographe.",
-        "mission": "Ma mission étatit de defefe",
+        "mission": "Ici je devais créer un portfolio, mais je devais le faire apparaitre de manière dynamique à l'aide d'une API fournie par le dev backend, une fois l'appel et la réponse de l'API traité j'ai du mettre en place un système de connexion, lorsque je suis connecté j'ai donc la possibilité de modifié le site en ajoutant/Supprimant des images et en leurs donnant un titre et une catégorie. J'ai également pu appliqué un filtres en fonction de la catégorie de l'image ajouté 'Objets', 'Appartements' ou 'Hôtels et restaurants'",
         "technologie":[
             "HTML",
             "CSS",
@@ -45,11 +45,13 @@
         "title":"Application de location immobilière",
         "cover":"../assets/Kasa/Kasa.png",
         "description":"Dans le cadre de ma formation OpenClassroom en développement web, j'ai eu pour mission de créer une application de location de logement.",
-        "mission": "Ma mission étatit dfddsffdfdfdfdf",
+        "mission": "Pour ce projet, il s'agissait de faire la refonte totale du site Kasa, un site de location de logements en tous genre, en React pour le Front et en Node.Js pour le Backend. Je m'oocupais uniquement de la partie Front et j'ai donc pus mettre en place l'application en react de manière claire grâce à l'utilisation des composants. En attendant que le Backend soit terminé j'avais un fichier json à ma dispostion. J'ai donc lié ce fichier à mon code et j'ai traité les données pour que lorsque l'on clique sur l'image avec l'ID :'ehes8745za' la modale ouvre les informations du logements lié à cet ID. ",
         "technologie":[
             "REACT",
             "CSS",
-            "SASS"
+            "SASS",
+            "React Router",
+            "Hook"
         ],
         "pictures":
         [

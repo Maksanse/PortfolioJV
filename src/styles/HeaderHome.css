@@ -1,27 +1,28 @@
-.TitleH1{
-    font-family:'Dogica', sans-serif;
+.TitleH1 {
+    font-family: 'Dogica', sans-serif;
     color: white;
-    font-size: clamp(15px, 5vmin ,70px);
+    font-size: clamp(15px, 5vmin, 70px);
     text-transform: uppercase;
     line-height: 1.5;
 }
 
-
-
-.HeaderListe__Container{
+.HeaderListe__Container {
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 5vmin;
+    gap: 3vmin; 
     line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto; 
 }
 
-.HeaderListe__Content{
+.HeaderListe__Content {
     font-family: 'Dogica';
     font-size: clamp(1vmin, 1.5vmin, 2vmin);
 }
 
-.Header{
+.Header {
     padding: clamp(10px, 5vmin, 70px);
     display: flex;
     justify-content: space-between;
@@ -29,31 +30,29 @@
     gap: 8vmin;
 }
 
-
-.HeaderListe__Content a:hover{
+.HeaderListe__Content a:hover {
     color: #13FF1A;
 }
 
-.HeaderListe__Content a{
+.HeaderListe__Content a {
     color: white;
     text-decoration: none;
+    white-space: nowrap;
 }
 
-
-@media(max-width: 768px){
-    .Header{
-        display: flex;
+@media (max-width: 768px) {
+    .Header {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
-    
-    .HeaderListe__Content{
-        font-family: 'Dogica';
-        font-size: clamp(2.5vmin, 1.5vmin, 2vmin);
+
+    .HeaderListe__Container {
+        justify-content: center; 
+        gap: 2vmin; 
     }
 
-    
-    
+    .HeaderListe__Content {
+        font-size: clamp(2vmin, 1.5vmin, 2vmin); 
+    }
 }
-
