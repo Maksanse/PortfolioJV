@@ -66,12 +66,12 @@ return(
     <input className='Contact__InputName' type="text" name="name" required placeholder='Nom'/>
 
     <label htmlFor="email"></label>
-    <input className='Contact__InputEmail' type="email" name="email" required  placeholder='Email'/>
+    <input className='Contact__InputEmail' type="email" name="email" required  placeholder='E-mail'/>
 
     <label htmlFor="message"></label>
     <textarea className='Contact__InputMessage' name="message" required placeholder='Message'></textarea>
 
-    <button className='Contact__ButtonSubmit' type="submit">Envoyé</button>
+    <button className='Contact__ButtonSubmit' type="submit">Envoyer</button>
 </form>
 </article>
 <div className='Footer__Container'>
